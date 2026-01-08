@@ -1,0 +1,20 @@
+img {
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.movie-title{
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.rating{
+    margin-top: auto;
+    font-size: 12px;
+}
+
+.flex_box{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}

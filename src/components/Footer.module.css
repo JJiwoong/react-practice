@@ -1,0 +1,14 @@
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.footer-container {
+    display: flex;
+    max-width: 1400px;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 12px;
+}

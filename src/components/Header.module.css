@@ -1,0 +1,72 @@
+.btn {
+    background: red;
+    border-radius: 12px;
+    padding: 10px 20px;
+}
+
+.site-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background:#fff;
+}
+
+.site-header.is-dark{
+  background: var(--bg);
+}
+
+.site-header_container{
+  display: flex;
+
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1400px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.themeToggle {
+  border: 0;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  line-height: 0;
+}
+
+.themeToggle__track {
+  width: 56px;
+  height: 28px;
+  border-radius: 999px;
+  background: #000;
+  display: inline-flex;
+  align-items: center;
+  padding: 4px;
+  box-sizing: border-box;
+  transition: background .2s ease;
+}
+
+.themeToggle__thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #f2b000;
+  transform: translateX(0);
+  transition: transform .2s ease;
+}
+
+.is-dark .themeToggle__track{
+  background:#fff;
+}
+
+.is-dark .themeToggle__thumb {
+  transform: translateX(28px);
+  background: #000;
+}
+
+.is-light .themeToggle__thumb {
+  transform: translateX(0);
+  background: #fff;
+}
